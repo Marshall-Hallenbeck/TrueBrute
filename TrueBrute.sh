@@ -12,5 +12,5 @@ if test $# -eq 2; then
     done < $2
     truecrypt -d $1
 else
-    echo "use: bruteTruecrypt.sh [truecrypt-volume] [word-list]"
+    echo "use: TrueBrute.sh [truecrypt-volume] [word-list]"
 fi
